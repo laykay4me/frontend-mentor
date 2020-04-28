@@ -1,0 +1,109 @@
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    #main-bd {
+      font-size: 16px;
+      font: Karla;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      background-color: gray;
+      box-sizing: border-box;
+      padding: 20px;
+      
+    }
+    #body-hd {
+      width: 50%;
+      margin-top: 40px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 30px;
+      box-sizing: border-box;
+      text-align: left;
+      background-color: white;
+      color: hsl(218, 22%, 67%);
+      font-size: 14px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    #titles {
+      font-weight: 700;
+      font-size: 18px;
+      color: hsl(179, 62%, 43%);
+
+    }
+    #sub {
+      font-weight: 700;
+      font-size: 16px;
+      color: hsl(71, 73%, 54%);
+      }
+    #body-btm{
+      background-color: hsl(71, 73%, 54%);
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      font-weight: 400;
+    }
+    #btm1 {
+      background-color: hsl(179, 62%, 43%);
+      color: hsl(204, 43%, 93%);
+      width: 50%;
+      height: 200px;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+      border-bottom-right-radius: 5px;
+    }
+    #btm2 {
+      background-color: hsl(179, 68%, 43%);
+      color: hsl(204, 43%, 93%);
+      width: 50%;
+      height: 200px;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+      border-bottom-left-radius: 5px;
+    }
+    @media screen and (max-width: 375px) {
+      div#btm1, div#btm2{
+        width: 100%;
+        height: auto;
+      }
+      div.signup{
+        width: 100px;
+        padding: 0px;
+      }
+    }
+    #btm-hd {
+      font-weight: 700;
+    }
+    #price {
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .signup {
+      width: 150px;
+      height: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 5px;
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      background-color: hsl(71, 73%, 54%);
+    }
+
+    footer {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      clear: right;
+    }
+  </style>
